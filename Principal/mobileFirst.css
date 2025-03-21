@@ -1,3 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
 body {
-    background: blue;
+    background-image: linear-gradient(to bottom, rgb(48, 13, 13) , rgb(0, 0, 0));
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    
+    padding: 10px 20px;
+    background-color: rgba(0, 0, 0, 0.2);
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 2023;
+    margin-bottom: 20px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3px;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 1px 9px;
+    font-size: .6em;
+   
+}
+.logo-esq {
+    display: flex;
+    align-items: center;
+   font-size: 1.5em;
+   
+}
+
+
+
+
+main {
+    margin-top: 95px;
+    display: flex;
+    
 }
