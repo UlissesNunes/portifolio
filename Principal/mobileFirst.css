@@ -6,7 +6,7 @@
 }
 
 body {
-    background-image: linear-gradient(to bottom, rgb(48, 13, 13) , rgb(0, 0, 0));
+    background-image: linear-gradient(to bottom, #300d0d , rgb(0, 0, 0));
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
